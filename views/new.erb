@@ -1,0 +1,40 @@
+<!-- create new -->
+
+<h1>Add A New Animal</h1>
+
+
+<form method="POST" action="/animals">
+  
+  Animal: <br>
+  <input type="text" name="animal[animal]" placeholder="animal"><br>
+
+  Habitat: <br>
+  <input type="text" name="animal[habitat]" placeholder="habitat"><br>
+
+  Behavior: <br>
+  <input type="text" name="animal[habitat]" placeholder="behavior"><br>
+
+  Threats: <br>
+  <input type="text" name="animal[threat]" placeholder="threats"><br>
+<!-- 
+  Life Expectancy: <br>
+  <input type="text" name="animal[animal]" placeholder="Animal Name"><br> -->
+
+  Other Facts: <br>
+  <input type="text" name="animal[other_facts]" placeholder="other facts"><br>
+  <input type="submit" value="Submit">
+
+</form>
+
+
+<!-- t.boolean :endangered
+      t.string :danger
+      t.boolean :threatened
+      t.string :threat
+      t.string :habitat 
+      t.string :behavior 
+      t.string :life_expectancy
+      t.string :url
+      t.string :photo
+      t.boolean :extinct 
+      t.string :other_facts  -->

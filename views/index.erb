@@ -1,0 +1,26 @@
+
+<% @animal.each do | animal | %>
+    
+
+    <h2><%= animal.animal %></h2>
+    <div><img src="<%= animal.photo %>"></div>
+    <a href="<%= animal.url %>">Learn More</a>
+    
+    <div class='row'>
+    <div class='col-md-4'>
+    <%= animal.id %>
+    <%= animal.habitat %>
+    <%= animal.behavior %>
+    </div>
+ 	<div>
+    <div class='row'>
+    <div class='col-md-4'><p><%= animal.threat %></p>
+    <%= animal.other_facts %>
+    <%= animal.life_expectancy %>
+    <%= animal.extinct %>
+    </div>
+    </div>
+ 	
+<% end %>
+</ul>
+
