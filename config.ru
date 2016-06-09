@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler'
-# require 'shotgun'
+require 'bootstrap'
+
 Bundler. require
 
 #models

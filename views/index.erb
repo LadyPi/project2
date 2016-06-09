@@ -1,26 +1,30 @@
 
-<% @animal.each do | animal | %>
-    
+<div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="/animals/:id" role="button">Learn more</a></p>
+</div>
 
-    <h2><%= animal.animal %></h2>
-    <div><img src="<%= animal.photo %>"></div>
-    <a href="<%= animal.url %>">Learn More</a>
-    
-    <div class='row'>
-    <div class='col-md-4'>
-    <%= animal.id %>
-    <%= animal.habitat %>
-    <%= animal.behavior %>
-    </div>
- 	<div>
-    <div class='row'>
-    <div class='col-md-4'><p><%= animal.threat %></p>
-    <%= animal.other_facts %>
-    <%= animal.life_expectancy %>
-    <%= animal.extinct %>
-    </div>
-    </div>
- 	
-<% end %>
-</ul>
+
+
+<div class='row'>
+<% @animal.each do | animal | %>
+          <% if animal.animal %>
+
+          <div class='col-xs-4 col-sm-3 col-md-3'>
+          <div class='thumbnail'>
+
+          <img src="<%= animal.photo %>" style='width:340px; height:260px;'>
+
+          <div class='caption'>
+          <h3> <%= animal.animal %></h3>
+          <p><%= animal.habitat %></p>
+          <p><a href='/animals/<%= animal.id %>' class='btn btn-primary' role='button'>Button</a></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
 
