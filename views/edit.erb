@@ -1,22 +1,33 @@
 <form method='post' action='/animals/<%= @animal.id %>'>
   <input type="hidden" name='_method' value='put'>
 
+<div class='editFormField'>
+  Animal <input name='animal[animal]' type='text' value='<%= @animal.animal %>'>
+  </div>
 
-  Animal<br>
-  <input name='animal[animal]' type='text' value='<%= @animal.animal %>'><br>
-  Habitat<br>
-  <input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'><br>
-  Behavior<br>
-  <input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'><br>
-  Threat<br>
-  <input name='animal[threat]' type='text' value='<%= @animal.threat %>'><br>
-  Life Expectancy<br>
-  <input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'><br>
-  Extinct<br>
-  <input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'><br>
-  Other Facts<br>
-  <input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
+<div class='editFormField'>
+  Habitat <input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'>
+</div>
 
+<div class='editFormField'>
+  Behavior <input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'>
+</div>
+
+<div class='editFormField'>
+  Threat <input name='animal[threat]' type='text' value='<%= @animal.threat %>'>
+</div>
+
+<div class='editFormField'>
+  Life Expectancy <input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'>
+</div>
+
+<div class='editFormField'>
+  Extinct <input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'>
+</div>
+
+<div class='editFormField'>
+  Other Facts <input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
+</div>
   
-  <input type='submit' type='text' value='Submit Edit'>
+  <input type='submit' type='text' value='Save Changes'>
   </form>

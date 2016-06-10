@@ -1,19 +1,22 @@
 
 
 
-<div class="jumbotron">
+<div class="jumbotron" class="indexPageJumbo">
   <div class='container'>
-  <h1>Learn About And Protect Endangered Species!</h1>
 
-  <div class='mainParagragh'>
+
+  <h1>Join The Race To Protect Those That Cannot Protect Themselves!</h1>
+
+  <!-- <div class='mainParagragh'>
   <p>Our laws allow for trafficking, directly threatening, and depleting the world's most beautiful and vulnerable species of this earth!</p>
-  </div>
+  </div> -->
 
   <div class='subMainParagraph'>
-  <p>This is an open-source site that provides you a forum to share species and threats we should be aware of. Empower others with knowledge.</p>
-  <p><a class="btn btn-primary btn-lg" href="/animals/new" role="button">Add New</a></p>
+  <p>This is an open-source site that provides a forum to <strong>share</strong> and <strong>educate</strong> each other about threatened and endangered species.</p>
+  <!-- Empower others with knowledge! -->
+  <p><a class="btn btn-primary btn-lg" href="/animals/new" role="button">I Want To Add An Animal</a></p>
   </div>
-  
+
 </div>
 </div>
 
@@ -32,7 +35,8 @@
 
           <div class='caption'>
           <h3> <%= animal.animal %></h3>
-          <p><%= animal.habitat %></p>
+          <p><strong>Threat: <%= animal.threat %></strong></p>
+          <!-- <p><strong>I am thought to be extinct: </strong><%= animal.extinct %></p> -->
           <p><a href='/animals/<%= animal.id %>' class='btn btn-primary' role='button'>Learn More About Me</a></p>
           </div>
         </div>
