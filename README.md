@@ -63,6 +63,7 @@ people who want to share and connect to document and educate each other regardin
 * **Ruby**
 * **Active Record**
 * **Sinatra**
+* **Bootstrap**
 
 Documentation:
 
