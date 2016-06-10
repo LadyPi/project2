@@ -40,11 +40,6 @@ class MostWanted < Sinatra::Base
       erb :edit
     end
 
-	# get '/animals/show/:id' do
- 	# @animal = Animal.find(params[:id])
- 	# erb :show
- 	# end
-
  	#update
   	put '/animals/:id' do
       @animal = Animal.find(params[:id])
@@ -61,11 +56,11 @@ end
       @animal.destroy
       redirect("/animals")
   	end
- 	# delete '/animals/:id' do
-	# @animal = Animal.find(params[:id])
-	# redirect("/animals")
-	# end
 end	
+
+
+
+
 
 # models singular
 # routes plural/controller

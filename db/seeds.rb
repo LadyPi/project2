@@ -14,7 +14,7 @@ Animal.create([
 	life_expectancy: 'Unknown',
 	url: 'http://www.harpseals.org/about_seals/seal_conservation.php',
 	photo: 'https://ucarecdn.com/52cba7d7-161c-4ade-bfdd-c687ca278cdd/',
-	extinct:'',
+	# extinct:'N/A',
 	other_facts: "The Harp Seal, also known as saddleback, is an earless seal native to the northernmost Atlantic Ocean and parts of the Arctic Ocean."
 	},
 
@@ -30,8 +30,8 @@ Animal.create([
 	life_expectancy: "About 25 years.",
 	url: "http://www.arkive.org/bearded-seal/erignathus-barbatus/",
 	photo: "https://ucarecdn.com/6df77c52-ea15-4815-910b-c929de95497d/",
-	extinct:'',
-	other_facts: "Their whiskers serve as feelers[9] in the soft bottom sediments. "
+	# extinct:'N/A',
+	other_facts: "Their whiskers serve as feelers in the soft bottom sediments. "
 	},
 	
  	{animal: "Humpback Whale",
@@ -45,7 +45,7 @@ Animal.create([
 	life_expectancy: "About 50 years.",
 	url: "https://upload.wikimedia.org/wikipedia/commons/8/84/Humpback_whale_noaa.jpg",
 	photo: "http://mauiwhalefestival.org/sites/mauiwhalefestival.org/files/Press-Whale-4_0.png",
-	extinct:'',
+	# extinct:'N/A',
 	other_facts: "Like other large whales, the humpback was a target for the whaling industry."
 	},
 
@@ -61,7 +61,7 @@ Animal.create([
 	life_expectancy: "Unknown",
 	url: "http://www.leatherback.org/",
 	photo:'https://ucarecdn.com/57145186-7d37-4fdf-b587-ff1cf20bbf57/',
-	extinct:'',
+	# extinct:'N/A',
 	other_facts: "Relatives of modern leatherback turtles have existed in some form since the first true sea turtles evolved over 110 million years ago during the Cretaceous period. "
 	},
 
@@ -93,7 +93,7 @@ Animal.create([
 	life_expectancy: "About 15-30 years.",
 	url: "http://www.montereybayaquarium.org/animal-guide/fishes/scalloped-hammerhead-shark",
 	photo: 'https://ucarecdn.com/abf80390-cf84-43af-8003-8576df32080c/',
-	extinct:'',
+	# extinct:'N/A',
 	other_facts: "Perhaps this unusual shape gives the sharks added lift and lets them make sharper turns than other sharks"
 	},
 
@@ -109,7 +109,7 @@ Animal.create([
 	life_expectancy: "About 15 years.",
 	url: "http://www.axolotl.org/",
 	photo: 'https://ucarecdn.com/565e962b-81ac-4307-a18e-c94a74d38178/',
-	extinct:'',
+	# extinct:'N/A',
 	other_facts: "One of the coolest things about Axolotl - apart from their appearance - is they ability to regenerate most body parts."
 	},
 
@@ -125,7 +125,7 @@ Animal.create([
 	life_expectancy: "Most around 6 years.",
 	url: "http://orma.com/sea-life/puffer-fish-facts/",
 	photo: 'https://ucarecdn.com/aa514307-6a14-4cbf-b5ab-59076469614f/',
-	extinct:'',
+	# extinct:'N/A',
 	other_facts: "The Chinese Pufferfish is a part of the popular Japanese dish called fugu, and because of overfishing, the fish has become nearly extinct. Because it is a poisonous fish, if not prepared and cooked properly, eating this fish can be fatal."
 	}])
 

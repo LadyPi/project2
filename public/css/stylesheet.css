@@ -35,6 +35,97 @@ header {
 	max-width:360px; 
 	height:260px;
 }*/
-.mainParagragh {
+.subMainParagraph {
+    color: black;
+    max-width: 400px;
+}
+#createNewImage {
+    background: url('https://ucarecdn.com/0d3e97a3-dc7f-45b3-8150-adb96afd5af6/') no-repeat center center fixed;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 10%;
 
 }
+.newForm {
+    background: rgba(192, 192, 192, 0.59);
+    width: 400px;
+    /*margin-top: -100px;*/
+    margin-left: 10px;
+    color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.addNewButton {
+    color: white;
+    background: blue;
+    border-radius: 10%;
+}
+.newFormField {
+    padding: 5px;
+}
+.showImage {
+    height: 80vh;
+    width: 60vw;
+    position: relative;
+    float: left;
+    border: gray solid 30px;
+    margin: 0 auto;
+}
+.showInfo {
+    position: relative;
+    /*height: 100px;
+    width: 200px;*/
+    /*margin-top: 10px;
+    margin-right: 10px;*/
+    float: right;
+    /*margin: 0 auto;*/
+    /*margin-right: -90px;*/
+    border: 20px solid gray;
+    padding: 11px; 
+    float: left;
+    margin-left: 30px;
+}
+.showDeleteButton {
+    border-radius: 5px;
+    background: red;
+    padding-left: 3px;
+    position: relative;
+    float: right;
+    display: block;
+    height: 35px;
+}
+#editButton {
+    color: black;
+    padding: 10px;
+}
+/*.showParagraph {
+    margin: 0 auto;
+}*/
+.editFormField {
+    padding: 10px 10px 10px 10px;
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+}
+.homeButton {
+    color: black;
+    border-radius: 5px;
+    background: #337ab7;
+    padding-left: 5px;
+    position: relative;
+   /* float: left;*/
+    display: block;
+    padding: 6px;
+    width: 135px;
+}
+.homeButtonText {
+    color: black;
+}
+
+
+
+
+
+

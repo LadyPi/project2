@@ -1,3 +1,7 @@
 development:
   adapter: postgresql
   database: animals_app_development
+
+production:
+  adapter: postgresql
+  database: animals_app 
