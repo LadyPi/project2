@@ -1,4 +1,4 @@
-# project2: Oceans Community Report
+# Project 2: Oceans Community Report
 
 ### Overview
 
