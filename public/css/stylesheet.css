@@ -8,3 +8,33 @@ header {
 	border: 2px black;
 }
 */
+/*.thumbnail-padding {
+    padding: 0 your desired padding/2;
+}*/
+.jumbotron {
+    background-image: url("https://ucarecdn.com/a4fafdfb-506f-47f4-874f-86c34148fd1b/");
+    background-size: cover;
+    border: 20px solid gray;
+    height: 600px;
+    color: white;
+    max-width: 100%;
+    /*margin: 10px;*/
+}
+.thumbnail {         
+    /*// or you could use percentage value for responsive layout*/
+    /*margin: 5% 5% 5% 5%;*/
+    height: 500px;
+    overflow: auto;
+    max-width: 100%; 
+    /*background-color: #2BBBFF;*/
+    background-color: gray;
+    display: inline-block;
+    /*width:340px; height:260px*/
+}
+/*.thumbnailPic {
+	max-width:360px; 
+	height:260px;
+}*/
+.mainParagragh {
+
+}

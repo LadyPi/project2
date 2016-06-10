@@ -1,8 +1,20 @@
 
+
+
 <div class="jumbotron">
-  <h1>Hello, world!</h1>
-  <p>...</p>
-  <p><a class="btn btn-primary btn-lg" href="/animals/:id" role="button">Learn more</a></p>
+  <div class='container'>
+  <h1>Learn About And Protect Endangered Species!</h1>
+
+  <div class='mainParagragh'>
+  <p>Our laws allow for trafficking, directly threatening, and depleting the world's most beautiful and vulnerable species of this earth!</p>
+  </div>
+
+  <div class='subMainParagraph'>
+  <p>This is an open-source site that provides you a forum to share species and threats we should be aware of. Empower others with knowledge.</p>
+  <p><a class="btn btn-primary btn-lg" href="/animals/new" role="button">Add New</a></p>
+  </div>
+  
+</div>
 </div>
 
 
@@ -11,18 +23,21 @@
 <% @animal.each do | animal | %>
           <% if animal.animal %>
 
+        <div class='thumbnail-padding'>
+
           <div class='col-xs-4 col-sm-3 col-md-3'>
           <div class='thumbnail'>
 
-          <img src="<%= animal.photo %>" style='width:340px; height:260px;'>
+          <img src="<%= animal.photo %>" class='thumbnailPic' style='width:340px; height:260px;'>
 
           <div class='caption'>
           <h3> <%= animal.animal %></h3>
           <p><%= animal.habitat %></p>
-          <p><a href='/animals/<%= animal.id %>' class='btn btn-primary' role='button'>Button</a></p>
+          <p><a href='/animals/<%= animal.id %>' class='btn btn-primary' role='button'>Learn More About Me</a></p>
           </div>
         </div>
       </div>
+     </div>
     <% end %>
   <% end %>
 </div>
