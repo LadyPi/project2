@@ -1,35 +1,41 @@
+
+
+  <div class='newForm'>
+  
 <form method='post' action='/animals/<%= @animal.id %>'>
+
   <input type="hidden" name='_method' value='put'>
 
 <div class='editFormField'>
-  Animal <input name='animal[animal]' type='text' value='<%= @animal.animal %>'>
+  <strong>Animal</strong><input name='animal[animal]' type='text' value='<%= @animal.animal %>'>
   </div>
 
 <div class='editFormField'>
-  Habitat <input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'>
+  <strong>Habitat</strong><input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'>
 </div>
 
 <div class='editFormField'>
-  Behavior <input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'>
+  <strong>Behavior</strong><input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'>
 </div>
 
 <div class='editFormField'>
-  Threat <input name='animal[threat]' type='text' value='<%= @animal.threat %>'>
+  <strong>Threat</strong><input name='animal[threat]' type='text' value='<%= @animal.threat %>'>
 </div>
 
 <div class='editFormField'>
-  Life Expectancy <input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'>
+  <strong>Life Expectancy</strong><input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'>
 </div>
 
 <div class='editFormField'>
-  Extinct <input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'>
+  <strong>Extinct</strong><input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'>
 </div>
 
 <div class='editFormField'>
-  Other Facts <input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
+  <strong>Other Facts</strong><input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
 </div>
   
   <input type='submit' type='text' value='Save Changes'>
 
   <button type="button" class="homeButton"><a class='homeButtonText' href='/animals'>Home Page</a></button>
   </form>
+  </div>

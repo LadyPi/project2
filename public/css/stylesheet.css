@@ -104,11 +104,11 @@ header {
 /*.showParagraph {
     margin: 0 auto;
 }*/
-.editFormField {
+/*.editFormField {
     padding: 10px 10px 10px 10px;
     margin: 30px 30px 30px 30px;
     text-align: center;
-}
+}*/
 .homeButton {
     color: black;
     border-radius: 5px;
@@ -123,6 +123,28 @@ header {
 .homeButtonText {
     color: black;
 }
+.editFormField {
+    /*background: rgba(192, 192, 192, 0.59);*/
+    width: 400px;
+    /*margin-top: -100px;*/
+    margin-left: 10px;
+    color: black;
+    /*border-radius: 10px;*/
+    padding: 10px 10px 10px 10px;
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.newForm {
+    padding: 5px;
+    background-image: url("https://ucarecdn.com/0869f3c3-d011-47b4-a683-960eb8e89647/");
+    background-size: cover;
+    border: 20px solid gray;
+    height: 600px;
+    color: white;
+    max-width: 100%;
+}
+
 
 
 
