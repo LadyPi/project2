@@ -49,8 +49,6 @@ people who want to share and connect to document and educate each other regardin
 
 11. Test Test Test All Assumptions Along The Way
 
-7. Pushed to Github and Bitballoon (http://shepherd-acquisition-60077.bitballoon.com/)
-
 ---
 
 ### Technologies Used
