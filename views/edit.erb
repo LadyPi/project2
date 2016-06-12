@@ -1,41 +1,42 @@
+<div class=editPageImage>
 
-
-  <div class='newForm'>
+<div class='editPageForm'>
   
 <form method='post' action='/animals/<%= @animal.id %>'>
 
   <input type="hidden" name='_method' value='put'>
 
 <div class='editFormField'>
-  <strong>Animal</strong><input name='animal[animal]' type='text' value='<%= @animal.animal %>'>
+  <h4>Animal</h4><input name='animal[animal]' type='text' value='<%= @animal.animal %>'>
   </div>
 
 <div class='editFormField'>
-  <strong>Habitat</strong><input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'>
+  <h4>Habitat</h4><input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'>
 </div>
 
 <div class='editFormField'>
-  <strong>Behavior</strong><input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'>
+  <h4>Behavior</h4><input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'>
 </div>
 
 <div class='editFormField'>
-  <strong>Threat</strong><input name='animal[threat]' type='text' value='<%= @animal.threat %>'>
+  <h4>Threat</h4><input name='animal[threat]' type='text' value='<%= @animal.threat %>'>
 </div>
 
 <div class='editFormField'>
-  <strong>Life Expectancy</strong><input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'>
+  <h4>Life Expectancy</h4><input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'>
 </div>
 
 <div class='editFormField'>
-  <strong>Extinct</strong><input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'>
+  <h4>Extinct</h4><input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'>
 </div>
 
 <div class='editFormField'>
-  <strong>Other Facts</strong><input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
+  <h4>Other Facts</h4><input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
 </div>
   
-  <input type='submit' type='text' value='Save Changes'>
+  <input type='submit' type='text' value='Save Changes' class="saveChangesButton">
 
   <button type="button" class="homeButton"><a class='homeButtonText' href='/animals'>Home Page</a></button>
   </form>
+  </div>
   </div>

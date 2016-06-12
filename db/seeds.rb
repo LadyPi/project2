@@ -26,7 +26,7 @@ Animal.create([
 	# threatened:,
 	threat: "Loss of sea ice is a potential threat, bycatch in commercial fishing gear, commerical hunting (Russia).",
 	habitat: "Bearded seals reside in arctic waters and are commonly found with drifting sea ice. They inhabit waters less than 650 ft (200 m) deep.",
-	behavior: "Solitary animals, individual seals rest on ice floes; songs from male bearded seals can be heard for up to 12 miles",
+	behavior: "Solitary animals, individual seals rest on ice floes; songs from male bearded seals can be heard for up to 12 miles.",
 	life_expectancy: "About 25 years.",
 	url: "http://www.arkive.org/bearded-seal/erignathus-barbatus/",
 	photo: "https://ucarecdn.com/6df77c52-ea15-4815-910b-c929de95497d/",
@@ -78,7 +78,7 @@ Animal.create([
 	url: "http://www.fisheries.noaa.gov/pr/species/mammals/dolphins/chinese-river-dolphin.html",
 	photo: 'https://ucarecdn.com/485bf19b-1375-4abf-b2ff-ee815d0023f4/',
 	extinct: "true",
-	other_facts: "Nicknamed 'Goddess of the Yangtze', it was regarded as the goddess of protection by local fishermen and boatmen in China ."
+	other_facts: "Nicknamed 'Goddess of the Yangtze', it was regarded as the goddess of protection by local fishermen and boatmen in China."
 	},
 
 	{
@@ -94,7 +94,7 @@ Animal.create([
 	url: "http://www.montereybayaquarium.org/animal-guide/fishes/scalloped-hammerhead-shark",
 	photo: 'https://ucarecdn.com/abf80390-cf84-43af-8003-8576df32080c/',
 	# extinct:'N/A',
-	other_facts: "Perhaps this unusual shape gives the sharks added lift and lets them make sharper turns than other sharks"
+	other_facts: "Perhaps this unusual shape gives the sharks added lift and lets them make sharper turns than other sharks."
 	},
 
 	{
