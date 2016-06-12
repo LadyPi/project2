@@ -12,7 +12,7 @@
   </div> -->
 
   <div class='subMainParagraph'>
-  <p>This is an open-source site that provides a forum to <strong>share</strong> and <strong>educate</strong> each other about threatened and endangered species.</p><p>Education Empowers And Enables Leaders!</p>
+  <p>This is an open-source site that provides a forum to <strong>share</strong> and <strong>educate</strong> each other about threatened and endangered species.</p>
   <!-- Empower others with knowledge! -->
   <p><a class="btn btn-primary btn-lg" href="/animals/new" role="button">I Want To Add An Animal</a></p>
   </div>
@@ -34,8 +34,8 @@
           <img src="<%= animal.photo %>" class='thumbnailPic' style='width:340px; height:260px;'>
 
           <div class='caption'>
-          <h3> <%= animal.animal %></h3>
-          <p><strong>Threat: <%= animal.threat %></strong></p>
+          <h3 class='animalTextColor'> <%= animal.animal %></h3>
+          <p class='threatTextColor'><strong><span class='subjectTitleText'>Threats:</span></strong> <%= animal.threat %></p>
           <!-- <p><strong>I am thought to be extinct: </strong><%= animal.extinct %></p> -->
           <p><a href='/animals/<%= animal.id %>' class='btn btn-primary' role='button'>Learn More About Me</a></p>
           </div>

@@ -6,20 +6,44 @@
     height: 600px;
     color: white;
     max-width: 100%;
+    margin-bottom: 1%;
 }
-.thumbnail {         
-    height: 500px;
-    overflow: auto;
-    max-width: 100%; 
-    background-color: gray;
-    display: inline-block;
+.thumbnail {     
+   /*margin: -10px -5px 20px -5px;   */
+   margin: 0 auto; 
+   padding: 4px; 
+   height: 500px;
+   overflow: auto;
+   max-width: 100%; 
+   background-color: gray;
+   display: inline-block;
 }
 .subMainParagraph {
     color: black;
     max-width: 400px;
 }
+.animalTextColor {
+    color: orange;
+}
+.threatTextColor {
+     color: white;
+     font-size: 16px;
+}
+.subjectTitleText {
+    color: black;
+    font-size: 16px;
+}
 
 /*#create new animal page /animals/new*/
+.createPageTextHead {
+    margin-top: -10%;
+    margin-bottom: 2%;
+    color: orange;
+    text-shadow: 10px;
+    background: black;
+    height: 100px;
+    padding: 2%;
+}
 #createPageImage {
     background: url('https://ucarecdn.com/0d3e97a3-dc7f-45b3-8150-adb96afd5af6/') no-repeat center center fixed;
     background-size: cover;
