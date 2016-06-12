@@ -9,7 +9,6 @@
     margin-bottom: 1%;
 }
 .thumbnail {     
-   /*margin: -10px -5px 20px -5px;   */
    margin: 0 auto; 
    padding: 4px; 
    height: 500px;
@@ -51,6 +50,7 @@
     width: 100vw;
     text-align: center;
     padding-top: 10%;
+    margin: 0 auto;
 }
 .createPageForm {
     background: rgba(192, 192, 192, 0.59);
@@ -98,6 +98,7 @@
 #editButton {
     color: black;
     padding: 10px;
+    margin: auto;
 }
 .homeButton {
     color: black;
@@ -107,7 +108,8 @@
     position: relative;
     display: block;
     padding: 6px;
-    width: 135px;
+    width: 136px;
+    margin-top: 3px;
 }
 .homeButtonText {
     color: black;
@@ -135,10 +137,24 @@
     color: black;
     background: orange;
     border-radius: 5px;
-    padding: 10px;
+    padding: 6px;
     margin: 20px;
 }
-
-
+.homeEditPageButton {
+    padding: 5.5px;
+    margin: 20px;
+    border-radius: 5px;
+    background: #337ab7;
+    width: 110px;
+}
+.editPageTextHead {
+    margin-top: -5%;
+    margin-bottom: 2%;
+    color: orange;
+    text-shadow: 10px;
+    background: black;
+    height: 100px;
+    padding: 2%;
+}
 
 
