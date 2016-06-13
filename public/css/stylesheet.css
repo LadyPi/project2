@@ -21,16 +21,16 @@
     color: black;
     max-width: 400px;
 }
+.subjectTitleText {
+    color: black;
+    font-size: 16px;
+}
 .animalTextColor {
     color: orange;
 }
 .threatTextColor {
      color: white;
      font-size: 16px;
-}
-.subjectTitleText {
-    color: black;
-    font-size: 16px;
 }
 
 /*#create new animal page /animals/new*/
@@ -133,6 +133,15 @@
     margin: 0 auto;
     padding: 5px;
 }
+.editPageTextHead {
+    margin-top: -5%;
+    margin-bottom: 1%;
+    color: orange;
+    text-shadow: 10px;
+    background: black;
+    height: 100px;
+    padding: 2%;
+}
 .saveChangesButton {
     color: black;
     background: orange;
@@ -146,15 +155,6 @@
     border-radius: 5px;
     background: #337ab7;
     width: 110px;
-}
-.editPageTextHead {
-    margin-top: -5%;
-    margin-bottom: 1%;
-    color: orange;
-    text-shadow: 10px;
-    background: black;
-    height: 100px;
-    padding: 2%;
 }
 
 

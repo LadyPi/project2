@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 source "https://rubygems.org"  #tells your app where to get the gems from
 gem "sinatra" #allows us to use and run Sinatra record
 gem "sinatra-activerecord" #allows us to use Sinatra with ActiveRecord

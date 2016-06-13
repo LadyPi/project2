@@ -41,6 +41,8 @@ people who want to share and connect to document and educate each other regardin
 * **Sinatra**
 * **Active Record **
 * **Ruby **
+* **Postgresql **
+
 * **All Other Libraries/Gems and Dependencies** 
 
 9. Build Database with Test Data

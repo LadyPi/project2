@@ -1,48 +1,53 @@
+<!-- /animals/:id/edit -->
+
 <div class=editPageImage>
+  <!-- edit page title header -->
+  <h1 class='editPageTextHead'>Thank You For Taking The Time To Edit My Information!</h1>
 
-<h1 class='editPageTextHead'>Thank You For Taking The Time To Edit My Information!</h1>
+  <div class='editPageForm'>
 
-<div class='editPageForm'>
+    <!-- for to edit selected animal -->
+    <form method='post' action='/animals/<%= @animal.id %>'>
+
+    <input type="hidden" name='_method' value='put'>
+
+      <div class='editFormField'>
+        <h4>Animal</h4><input name='animal[animal]' type='text' value='<%= @animal.animal %>'>
+      </div>
+
+      <div class='editFormField'>
+        <h4>Habitat</h4><input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'>
+      </div>
+
+      <div class='editFormField'>
+        <h4>Behavior</h4><input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'>
+      </div>
+
+      <div class='editFormField'>
+        <h4>Threat</h4><input name='animal[threat]' type='text' value='<%= @animal.threat %>'>
+      </div>
+
+      <div class='editFormField'>
+        <h4>Life Expectancy</h4><input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'>
+      </div>
+
+      <div class='editFormField'>
+        <h4>Extinct</h4><input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'>
+      </div>
+
+      <!-- <div class='editFormField'> ICEBOX
+      <h4>Web Url To Share More Info</h4><input name='animal[url]' type='text' value='<%= @animal.url %>'>
+      </div> -->
+
+      <div class='editFormField'>
+        <h4>Other Facts</h4><input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
+      </div>
   
-<form method='post' action='/animals/<%= @animal.id %>'>
+    <!-- button to save changes to animal selected -->
+    <input type='submit' type='text' value='Save Changes' class="saveChangesButton">
 
-  <input type="hidden" name='_method' value='put'>
-
-<div class='editFormField'>
-  <h4>Animal</h4><input name='animal[animal]' type='text' value='<%= @animal.animal %>'>
-  </div>
-
-<div class='editFormField'>
-  <h4>Habitat</h4><input name='animal[habitat]' type='text' value='<%= @animal.habitat %>'>
-</div>
-
-<div class='editFormField'>
-  <h4>Behavior</h4><input name='animal[behavior]' type='text' value='<%= @animal.behavior %>'>
-</div>
-
-<div class='editFormField'>
-  <h4>Threat</h4><input name='animal[threat]' type='text' value='<%= @animal.threat %>'>
-</div>
-
-<div class='editFormField'>
-  <h4>Life Expectancy</h4><input name='animal[life_expectancy]' type='text' value='<%= @animal.life_expectancy %>'>
-</div>
-
-<div class='editFormField'>
-  <h4>Extinct</h4><input name='animal[extinct]' type='text' value='<%= @animal.extinct %>'>
-</div>
-
-<!-- <div class='editFormField'> ICEBOX
-  <h4>Web Url To Share More Info</h4><input name='animal[url]' type='text' value='<%= @animal.url %>'>
-</div> -->
-
-<div class='editFormField'>
-  <h4>Other Facts</h4><input name='animal[other_facts]' type='text' value='<%= @animal.other_facts %>'>
-</div>
-  
-  <input type='submit' type='text' value='Save Changes' class="saveChangesButton">
-
-  <button type="button" class="homeEditPageButton"><a class='homeButtonText' href='/animals'>Home Page</a></button>
-  </form>
-  </div>
-  </div>
+    <!-- button to go back to the home page -->
+    <button type="button" class="homeEditPageButton"><a class='homeButtonText' href='/animals'>Home Page</a></button>
+    </form>
+  </div> <!-- editPageForm -->
+</div> <!-- editPageImage -->

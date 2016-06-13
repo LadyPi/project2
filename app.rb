@@ -1,10 +1,10 @@
 class MostWanted < Sinatra::Base
 
-    #home page
-    get '/' do
-      erb :home  
+    #home page ICEBOX
+    # get '/' do
+      # erb :home  
       #pushing index file into layout
-    end
+    # end
 
     #all animals page
     get '/animals' do
@@ -28,19 +28,19 @@ class MostWanted < Sinatra::Base
   		end
     end
 
-    #show particular id
+    #show selected animal
     get '/animals/:id' do
       @animal = Animal.find(params[:id])
       erb :show
     end
 
-    #edit particular id
+    #edit selected animal
     get '/animals/:id/edit' do
       @animal = Animal.find(params[:id])
       erb :edit
     end
 
- 	#update
+ 	#update selected animal
   	put '/animals/:id' do
       @animal = Animal.find(params[:id])
       if @animal.update_attributes(params[:animal])
@@ -50,7 +50,7 @@ class MostWanted < Sinatra::Base
       	erb :edit
   	end
 end
-	#delete
+	#delete selected animal
     delete '/animals/:id' do
       @animal = Animal.find(params[:id])
       @animal.destroy
@@ -61,6 +61,6 @@ end
 
 
 
-
+# Notes:
 # models singular
 # routes plural/controller

@@ -1,41 +1,44 @@
-<!-- create new -->
+<!-- /animals/new -->
 
 <div id='createPageImage'>
 
-<h1 class='createPageTextHead'>Thank You For Taking The Time To Share And Educate Others About Me!</h1>
+  <!-- #page heading text -->
+  <h1 class='createPageTextHead'>Thank You For Taking The Time To Share And Educate Others About Me!</h1>
 
 <div class='createPageForm'>
+  
+  <!-- #form to create new animal -->
   <form method="POST" action="/animals">
     
-      <div class='newFormField'>
-        <h4>Animal</h4><input type="text" class='radius' name="animal[animal]" placeholder="animal">
-      </div>
+    <div class='newFormField'>
+      <h4>Animal</h4><input type="text" class='radius' name="animal[animal]" placeholder="animal">
+    </div>
       
-      <div class='newFormField'>
-         <h4>Habitat</h4><input type="text" class='radius' name="animal[habitat]" placeholder="habitat">
-      </div>
+    <div class='newFormField'>
+      <h4>Habitat</h4><input type="text" class='radius' name="animal[habitat]" placeholder="habitat">
+    </div>
 
-      <div class='newFormField'>
-         <h4>Behavior </h4><input type="text" class='radius' name="animal[habitat]" placeholder="behavior">
-      </div>
+    <div class='newFormField'>
+      <h4>Behavior </h4><input type="text" class='radius' name="animal[habitat]" placeholder="behavior">
+    </div>
       
-      <div class='newFormField'>
-         <h4>Threats </h4><input type="text" class='radius' name="animal[threat]" placeholder="threats">
-      </div>
+    <div class='newFormField'>
+      <h4>Threats </h4><input type="text" class='radius' name="animal[threat]" placeholder="threats">
+    </div>
 
-      <div class='newFormField'>
-       <h4>Life Expectancy</h4><input type="text" name="animal[animal]" placeholder="Animal Name">
-       </div>
+    <div class='newFormField'>
+      <h4>Life Expectancy</h4><input type="text" name="animal[animal]" placeholder="Animal Name">
+    </div>
 
       <!-- <div class='newFormField'> ICEBOX
        <h4>URL</h4><input type="text" name="animal[url]" placeholder="url">
       </div> -->
 
-      <div class='newFormField'>
-         <h4>Other Facts </h4><input type="text" class='radius' name="animal[other_facts]" placeholder="other facts">
-      </div>
-
-        <input class='addNewButton' type="submit" value="Post My Addition">
+    <div class='newFormField'>
+      <h4>Other Facts </h4><input type="text" class='radius' name="animal[other_facts]" placeholder="other facts">
+    </div>
+        <!-- submit button for newly created animal -->
+      <input class='addNewButton' type="submit" value="Post My Addition">
     </div>
   </form>
 </div>
