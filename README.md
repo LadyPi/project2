@@ -83,4 +83,26 @@ Documentation:
 * **Adding a page for more interaction between community along with sharing buttons.**
 
 
+#Home Page: upper
+
 ![ScreenShot](https://ucarecdn.com/42d9962c-b863-413b-9dc2-230b2b1cbe32/)
+
+#Home Page: lower
+
+![ScreenShot](https://ucarecdn.com/5d172a64-520b-4496-a0f5-f19c5d0a773e/)
+
+### Create Your Own Animal Post Page
+
+![ScreenShot](https://ucarecdn.com/5edae239-00bd-4f33-8c3d-b1380371c996/)
+
+### Selected Animal Page: Chinese Puffer Fish
+
+![ScreenShot](https://ucarecdn.com/cfed7471-e348-4030-be08-92860d07e7cb/)
+
+### Selected Animal Page: Harper Seal Pup
+
+![ScreenShot](https://ucarecdn.com/18cb627d-0d18-4494-b84b-e2d0dcd2d87b/)
+
+### Edit Selected Animal Page
+![ScreenShot](https://ucarecdn.com/4713bb0b-4326-4d44-a70a-2f7d2bdce739/)
+
