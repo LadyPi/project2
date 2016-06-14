@@ -83,6 +83,10 @@ Documentation:
 * **Adding a page for more interaction between community along with sharing buttons.**
 
 
+#Sketched Wireframe
+
+![ScreenShot](https://ucarecdn.com/5d7e117c-9b25-4e5a-9844-4222a9e93b43/)
+
 #Home Page: upper
 
 ![ScreenShot](https://ucarecdn.com/42d9962c-b863-413b-9dc2-230b2b1cbe32/)

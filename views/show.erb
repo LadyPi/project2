@@ -1,23 +1,23 @@
 <!-- /animals/:id' -->
 	
-<!-- #selected animal image  -->
-<div class='col-xs-5 col-sm-5 col-md-5 col-lg-7'>
-	<img src="<%= @animal.photo %>" class='showImage'>
-</div>
+	<!-- #selected animal image  -->
+	<div class='col-xs-5 col-sm-5 col-md-5 col-lg-7'>
+		<img src="<%= @animal.photo %>" class='showImage'>
+	</div>
 
-<!-- #far right bar with animal information -->
-<div class='col-xs-1 col-sm-1 col-md-2 col-lg-4'>
-	<div class='showInfo'>
-		<p><h2><%= @animal.animal %></h2></p>
-	    <p><h4>Habitat</h4><%= @animal.habitat %></p>
-	    <p><h4>Behavior</h4><%= @animal.behavior %></p>
-	 	<p><h4>Threat</h4><%= @animal.threat %></p></p>
-	    <p><h4>Life Expectancy</h4><%= @animal.life_expectancy %></p>
-	    <p><h4>Extinct</h4><%= @animal.extinct %></p>
-	    <p><h4>Other Facts</h4><%= @animal.other_facts %></p>
-	   	<p>If you want to learn more about me <a href="<%= @animal.url %>">'Click Here'!</a></p>
+	<!-- #far right bar with animal information -->
+	<div class='col-xs-1 col-sm-1 col-md-2 col-lg-4'>
+		<div class='showInfo'>
+			<p><h2><%= @animal.animal %></h2></p>
+		    <p><h4>Habitat</h4><%= @animal.habitat %></p>
+		    <p><h4>Behavior</h4><%= @animal.behavior %></p>
+		 	<p><h4>Threat</h4><%= @animal.threat %></p></p>
+		    <p><h4>Life Expectancy</h4><%= @animal.life_expectancy %></p>
+		    <p><h4>Extinct</h4><%= @animal.extinct %></p>
+		    <p><h4>Other Facts</h4><%= @animal.other_facts %></p>
+		   	<p>If you want to learn more about me <a href="<%= @animal.url %>">'Click Here'!</a></p>
 
-		<!-- #button to delete selected animal -->
+			<!-- #button to delete selected animal -->
 		<form method='post' action='/animals/<%= @animal.id %>'>
 			<input class='showDeleteButton' type="submit" name='_method' value="Delete">
 		</form> 
